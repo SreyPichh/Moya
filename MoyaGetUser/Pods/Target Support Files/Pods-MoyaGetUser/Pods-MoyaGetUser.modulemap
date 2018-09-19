@@ -1,0 +1,6 @@
+framework module Pods_MoyaGetUser {
+  umbrella header "Pods-MoyaGetUser-umbrella.h"
+
+  export *
+  module * { export * }
+}

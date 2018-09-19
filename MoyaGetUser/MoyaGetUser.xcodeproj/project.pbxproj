@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EC2AF49D8C2FE65CD23C237 /* Pods_MoyaGetUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EE738AFCE9EE2D9C410789 /* Pods_MoyaGetUser.framework */; };
+		B9AA26742150FCA80060C4A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AA26732150FCA80060C4A6 /* AppDelegate.swift */; };
+		B9AA26762150FCA80060C4A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AA26752150FCA80060C4A6 /* ViewController.swift */; };
+		B9AA26792150FCA80060C4A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9AA26772150FCA80060C4A6 /* Main.storyboard */; };
+		B9AA267B2150FCAA0060C4A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9AA267A2150FCAA0060C4A6 /* Assets.xcassets */; };
+		B9AA267E2150FCAA0060C4A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9AA267C2150FCAA0060C4A6 /* LaunchScreen.storyboard */; };
+		B9AA268E2150FE140060C4A6 /* ViewControllerSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AA268D2150FE140060C4A6 /* ViewControllerSubview.swift */; };
+		B9AA2691215105AB0060C4A6 /* ViewControllerReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AA2690215105AB0060C4A6 /* ViewControllerReactor.swift */; };
+		B9AA2697215106550060C4A6 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AA2696215106550060C4A6 /* PostModel.swift */; };
+		B9AA269B21511AB20060C4A6 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9AA269A21511AB20060C4A6 /* PostService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A1B9DC2293CF9CE7FF9E423 /* Pods-MoyaGetUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGetUser.release.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaGetUser/Pods-MoyaGetUser.release.xcconfig"; sourceTree = "<group>"; };
+		B9AA26702150FCA80060C4A6 /* MoyaGetUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyaGetUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9AA26732150FCA80060C4A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9AA26752150FCA80060C4A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9AA26782150FCA80060C4A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9AA267A2150FCAA0060C4A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9AA267D2150FCAA0060C4A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9AA267F2150FCAA0060C4A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9AA268D2150FE140060C4A6 /* ViewControllerSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSubview.swift; sourceTree = "<group>"; };
+		B9AA2690215105AB0060C4A6 /* ViewControllerReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerReactor.swift; sourceTree = "<group>"; };
+		B9AA2696215106550060C4A6 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		B9AA269A21511AB20060C4A6 /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
+		D7EA3BAD25A7498BAAE97F36 /* Pods-MoyaGetUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaGetUser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaGetUser/Pods-MoyaGetUser.debug.xcconfig"; sourceTree = "<group>"; };
+		E0EE738AFCE9EE2D9C410789 /* Pods_MoyaGetUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaGetUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9AA266D2150FCA80060C4A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC2AF49D8C2FE65CD23C237 /* Pods_MoyaGetUser.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9AA26672150FCA80060C4A6 = {
+			isa = PBXGroup;
+			children = (
+				B9AA26722150FCA80060C4A6 /* MoyaGetUser */,
+				B9AA26712150FCA80060C4A6 /* Products */,
+				CA3CADE1BCD76F61D1BDF169 /* Pods */,
+				BF09716812EA4E6C043D8F0F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9AA26712150FCA80060C4A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9AA26702150FCA80060C4A6 /* MoyaGetUser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9AA26722150FCA80060C4A6 /* MoyaGetUser */ = {
+			isa = PBXGroup;
+			children = (
+				B9AA26882150FDB40060C4A6 /* Assets */,
+				B9AA26872150FDA90060C4A6 /* Classes */,
+				B9AA26862150FD970060C4A6 /* Storyboards */,
+				B9AA26852150FD880060C4A6 /* Applications */,
+				B9AA267F2150FCAA0060C4A6 /* Info.plist */,
+			);
+			path = MoyaGetUser;
+			sourceTree = "<group>";
+		};
+		B9AA26852150FD880060C4A6 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				B9AA26732150FCA80060C4A6 /* AppDelegate.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		B9AA26862150FD970060C4A6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B9AA26772150FCA80060C4A6 /* Main.storyboard */,
+				B9AA267C2150FCAA0060C4A6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B9AA26872150FDA90060C4A6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B9AA2692215106080060C4A6 /* Utils */,
+				B9AA26892150FDC90060C4A6 /* Presents */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B9AA26882150FDB40060C4A6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B9AA267A2150FCAA0060C4A6 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B9AA26892150FDC90060C4A6 /* Presents */ = {
+			isa = PBXGroup;
+			children = (
+				B9AA2693215106120060C4A6 /* Data */,
+				B9AA268A2150FDD60060C4A6 /* Main */,
+			);
+			path = Presents;
+			sourceTree = "<group>";
+		};
+		B9AA268A2150FDD60060C4A6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B9AA268B2150FDDD0060C4A6 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B9AA268B2150FDDD0060C4A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9AA268F215105900060C4A6 /* Reactor */,
+				B9AA268C2150FDFA0060C4A6 /* Subview */,
+				B9AA26752150FCA80060C4A6 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9AA268C2150FDFA0060C4A6 /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				B9AA268D2150FE140060C4A6 /* ViewControllerSubview.swift */,
+			);
+			path = Subview;
+			sourceTree = "<group>";
+		};
+		B9AA268F215105900060C4A6 /* Reactor */ = {
+			isa = PBXGroup;
+			children = (
+				B9AA2690215105AB0060C4A6 /* ViewControllerReactor.swift */,
+			);
+			path = Reactor;
+			sourceTree = "<group>";
+		};
+		B9AA2692215106080060C4A6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B9AA2693215106120060C4A6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B9AA2695215106460060C4A6 /* Model */,
+				B9AA26942151061D0060C4A6 /* API */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B9AA26942151061D0060C4A6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B9AA269A21511AB20060C4A6 /* PostService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B9AA2695215106460060C4A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9AA2696215106550060C4A6 /* PostModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF09716812EA4E6C043D8F0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0EE738AFCE9EE2D9C410789 /* Pods_MoyaGetUser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA3CADE1BCD76F61D1BDF169 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7EA3BAD25A7498BAAE97F36 /* Pods-MoyaGetUser.debug.xcconfig */,
+				8A1B9DC2293CF9CE7FF9E423 /* Pods-MoyaGetUser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9AA266F2150FCA80060C4A6 /* MoyaGetUser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9AA26822150FCAA0060C4A6 /* Build configuration list for PBXNativeTarget "MoyaGetUser" */;
+			buildPhases = (
+				787B06D61561B624F9EBBC83 /* [CP] Check Pods Manifest.lock */,
+				B9AA266C2150FCA80060C4A6 /* Sources */,
+				B9AA266D2150FCA80060C4A6 /* Frameworks */,
+				B9AA266E2150FCA80060C4A6 /* Resources */,
+				1E43663942AF7E549B9ECC5B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoyaGetUser;
+			productName = MoyaGetUser;
+			productReference = B9AA26702150FCA80060C4A6 /* MoyaGetUser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9AA26682150FCA80060C4A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Pich;
+				TargetAttributes = {
+					B9AA266F2150FCA80060C4A6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B9AA266B2150FCA80060C4A6 /* Build configuration list for PBXProject "MoyaGetUser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9AA26672150FCA80060C4A6;
+			productRefGroup = B9AA26712150FCA80060C4A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9AA266F2150FCA80060C4A6 /* MoyaGetUser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9AA266E2150FCA80060C4A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AA267E2150FCAA0060C4A6 /* LaunchScreen.storyboard in Resources */,
+				B9AA267B2150FCAA0060C4A6 /* Assets.xcassets in Resources */,
+				B9AA26792150FCA80060C4A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E43663942AF7E549B9ECC5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MoyaGetUser/Pods-MoyaGetUser-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactorKit/ReactorKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactorKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MoyaGetUser/Pods-MoyaGetUser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		787B06D61561B624F9EBBC83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoyaGetUser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9AA266C2150FCA80060C4A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AA26762150FCA80060C4A6 /* ViewController.swift in Sources */,
+				B9AA269B21511AB20060C4A6 /* PostService.swift in Sources */,
+				B9AA2697215106550060C4A6 /* PostModel.swift in Sources */,
+				B9AA2691215105AB0060C4A6 /* ViewControllerReactor.swift in Sources */,
+				B9AA26742150FCA80060C4A6 /* AppDelegate.swift in Sources */,
+				B9AA268E2150FE140060C4A6 /* ViewControllerSubview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9AA26772150FCA80060C4A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9AA26782150FCA80060C4A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9AA267C2150FCAA0060C4A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9AA267D2150FCAA0060C4A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9AA26802150FCAA0060C4A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9AA26812150FCAA0060C4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9AA26832150FCAA0060C4A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7EA3BAD25A7498BAAE97F36 /* Pods-MoyaGetUser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 434NL52Z48;
+				INFOPLIST_FILE = MoyaGetUser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pich.MoyaGetUser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9AA26842150FCAA0060C4A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1B9DC2293CF9CE7FF9E423 /* Pods-MoyaGetUser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 434NL52Z48;
+				INFOPLIST_FILE = MoyaGetUser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pich.MoyaGetUser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9AA266B2150FCA80060C4A6 /* Build configuration list for PBXProject "MoyaGetUser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9AA26802150FCAA0060C4A6 /* Debug */,
+				B9AA26812150FCAA0060C4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9AA26822150FCAA0060C4A6 /* Build configuration list for PBXNativeTarget "MoyaGetUser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9AA26832150FCAA0060C4A6 /* Debug */,
+				B9AA26842150FCAA0060C4A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9AA26682150FCA80060C4A6 /* Project object */;
+}
